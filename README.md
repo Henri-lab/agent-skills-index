@@ -10,6 +10,7 @@
 | membership-system-builder | [Henri-lab/membership-system-builder](https://github.com/Henri-lab/membership-system-builder) | MSP v0.4.0 | 会员订阅 + 付费内容 + 支付的选型与构建技能：个人收款码（金额指纹/截图审核/聚合）到官方网关，64 条测试向量 + 5 条设计判据判定"可用" | 活跃 |
 | identity-system-builder | [Henri-lab/identity-system-builder](https://github.com/Henri-lab/identity-system-builder) | ASP v0.1.0 | 用户认证构建技能：注册/登录/服务端会话/验证码/重置/封禁，P2 含 TOTP 与 OIDC；认证/授权/权益三分离 | 活跃 |
 | vps-migrator | [Henri-lab/vps-migrator](https://github.com/Henri-lab/vps-migrator) | v0.1.0 | GitHub + Docker 的服务器迁移/重建/灾难恢复：先 Plan（只读扫描）后 Apply（备份→部署→健康检查→DNS 切换与回滚窗口） | 活跃 |
+| quality-gate-builder | [Henri-lab/quality-gate-builder](https://github.com/Henri-lab/quality-gate-builder) | v0.1.0 | 企业级质量门禁：测试流水 + 压测流水 + 三个模拟器（支付回调/并发用户/订单流程），复用 MSP/ASP 符合性向量 | 活跃 |
 
 ## 尚在 platform-kit 内、未独立开源的技能
 
