@@ -11,6 +11,7 @@
 | identity-system-builder | [Henri-lab/identity-system-builder](https://github.com/Henri-lab/identity-system-builder) | ASP v0.1.0 | 用户认证构建技能：注册/登录/服务端会话/验证码/重置/封禁，P2 含 TOTP 与 OIDC；认证/授权/权益三分离 | 活跃 |
 | vps-migrator | [Henri-lab/vps-migrator](https://github.com/Henri-lab/vps-migrator) | v0.1.0 | GitHub + Docker 的服务器迁移/重建/灾难恢复：先 Plan（只读扫描）后 Apply（备份→部署→健康检查→DNS 切换与回滚窗口） | 活跃 |
 | quality-gate-builder | [Henri-lab/quality-gate-builder](https://github.com/Henri-lab/quality-gate-builder) | v0.1.0 | 企业级质量门禁：测试流水 + 压测流水 + 三个模拟器（支付回调/并发用户/订单流程），复用 MSP/ASP 符合性向量 | 活跃 |
+| subscription-splitter | [Henri-lab/subscription-splitter](https://github.com/Henri-lab/subscription-splitter) | v0.1.0 | 订阅系统边界与拆分决策：六概念时间模型（事实/派生/负债/触发器）+ 拆分四问与三个灵魂拷问 | 活跃 |
 
 ## 尚在 platform-kit 内、未独立开源的技能
 
