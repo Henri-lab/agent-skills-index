@@ -12,13 +12,13 @@
 | vps-migrator | [Henri-lab/vps-migrator](https://github.com/Henri-lab/vps-migrator) | v0.1.0 | GitHub + Docker 的服务器迁移/重建/灾难恢复：先 Plan（只读扫描）后 Apply（备份→部署→健康检查→DNS 切换与回滚窗口） | 活跃 |
 | quality-gate-builder | [Henri-lab/quality-gate-builder](https://github.com/Henri-lab/quality-gate-builder) | v0.1.0 | 企业级质量门禁：测试流水 + 压测流水 + 三个模拟器（支付回调/并发用户/订单流程），复用 MSP/ASP 符合性向量 | 活跃 |
 | subscription-splitter | [Henri-lab/subscription-splitter](https://github.com/Henri-lab/subscription-splitter) | v0.1.0 | 订阅系统边界与拆分决策：六概念时间模型（事实/派生/负债/触发器）+ 拆分四问与三个灵魂拷问 | 活跃 |
+| engineering-pitfalls | [Henri-lab/engineering-pitfalls](https://github.com/Henri-lab/engineering-pitfalls) | v0.1.0 | 跨项目细碎工程踩坑库（E-001~E-111）：shell/构建部署/SQL/docker/工具链，动手前先搜、踩完就记 | 活跃 |
 
 ## 尚在 platform-kit 内、未独立开源的技能
 
 | 技能 | 一句话描述 | 说明 |
 | --- | --- | --- |
 | logging-system-builder | 统一日志体系：trace_id/链路贯通/埋点/前端回流与防打点风暴 | 待独立 |
-| engineering-pitfalls | 跨项目细碎工程踩坑经验库（shell/构建/数据库/工具链） | 待独立 |
 | api-contract-typing | OpenAPI 成为前端 TS 类型的唯一来源（双向门禁/漂移检测） | 待独立 |
 | server-hardening | 公网服务器加固（SSH 爆破/误绑 0.0.0.0/TLS 与安全头） | 待独立 |
 
