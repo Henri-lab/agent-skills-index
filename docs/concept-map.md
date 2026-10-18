@@ -11,6 +11,7 @@
 | 选型访谈规则（三问 / 保守假设 / 理由要求） | agent-skills-index：`conventions/solution-interview.md` | 五个技能的 solution-tiers.md（各自保留档位表与领域取值） |
 | 技术选型第二层访谈（五问 / 决策表 / 一致性校验） | agent-skills-index：`conventions/stack-interview.md` | membership `references/stack-selection.md`（样板）；其它技能一行指针 |
 | 项目级编排（一次访谈 → 跨技能选型 → 汇总报告） | agent-skills-index：`composer.md` | 领域→技能调度表 |
+| 知识演化策略（回填/证据等级/提升规则） | agent-skills-index：`conventions/knowledge-evolution.md` | 五个技能的 maintenance 自查清单（只留指针） |
 | 时间模型（事实 / 派生 / 负债 / 触发器） | subscription-splitter：`references/time-model.md` | membership ledger/master-craft、course-platform domain-model |
 | 账本域结构化幂等键 | membership-system-builder：ledger §4 | 领域专属，其它技能不复制 |
 | 工程踩坑（单点小坑） | engineering-pitfalls：`references/log.md` | 各技能按 E-xxx 指针引用 |

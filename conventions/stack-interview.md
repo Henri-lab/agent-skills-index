@@ -2,6 +2,7 @@
 
 > 第一层（业务档位）见 [solution-interview.md](solution-interview.md)；本层在**档位确定后**决定技术栈。
 > 核心原则：**每个决策点给开发者选择权 + 说明利害**；开发者不答时给推荐 + 理由 + 保守默认，并在产出标注"未确认"。
+> 本表的"适合/代价"是经验起点，靠**使用回填**变准（证据等级与提升规则见 [knowledge-evolution.md](knowledge-evolution.md)）。
 
 ## 1. 五问（一次问清）
 
