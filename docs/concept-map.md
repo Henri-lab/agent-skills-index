@@ -9,6 +9,8 @@
 | 幂等键通用机制（键随重复源 / 原子占位 / 结果回放 / 防重地图） | membership-system-builder：MSP spec §10 | ASP spec §1、MSP ledger §4（账本域键选型）、quality-gate simulators、subscription-splitter boundary-rules、engineering-pitfalls E-077/112/113（工程坑） |
 | 设计判据 D-1~D-5（业务域 + 认证域表述 + 通过证据） | quality-gate-builder：`references/design-judgments.md` | membership conformance §3、identity conformance §3、membership master-craft §3（只保留出处溯源） |
 | 选型访谈规则（三问 / 保守假设 / 理由要求） | agent-skills-index：`conventions/solution-interview.md` | 五个技能的 solution-tiers.md（各自保留档位表与领域取值） |
+| 技术选型第二层访谈（五问 / 决策表 / 一致性校验） | agent-skills-index：`conventions/stack-interview.md` | membership `references/stack-selection.md`（样板）；其它技能一行指针 |
+| 项目级编排（一次访谈 → 跨技能选型 → 汇总报告） | agent-skills-index：`composer.md` | 领域→技能调度表 |
 | 时间模型（事实 / 派生 / 负债 / 触发器） | subscription-splitter：`references/time-model.md` | membership ledger/master-craft、course-platform domain-model |
 | 账本域结构化幂等键 | membership-system-builder：ledger §4 | 领域专属，其它技能不复制 |
 | 工程踩坑（单点小坑） | engineering-pitfalls：`references/log.md` | 各技能按 E-xxx 指针引用 |

@@ -33,6 +33,8 @@
 另有两份治理文档（本仓库维护）：
 
 - [conventions/solution-interview.md](conventions/solution-interview.md) —— 选型访谈规则的唯一权威；
+- [conventions/stack-interview.md](conventions/stack-interview.md) —— 技术选型第二层访谈（每个决策点的选项/适合/代价与一致性校验）；
+- [composer.md](composer.md) —— **项目编排入口**：一次访谈 → 跨技能定档位与技术栈 → 汇总选型报告；
 - [docs/concept-map.md](docs/concept-map.md) —— **概念单一权威注册表**：哪个概念写在哪、别处只引用不复制。
 
 ## License
