@@ -13,21 +13,16 @@
 | quality-gate-builder | [Henri-lab/quality-gate-builder](https://github.com/Henri-lab/quality-gate-builder) | v0.1.0 | 企业级质量门禁：测试流水 + 压测流水 + 三个模拟器（支付回调/并发用户/订单流程），复用 MSP/ASP 符合性向量 | 活跃 |
 | subscription-splitter | [Henri-lab/subscription-splitter](https://github.com/Henri-lab/subscription-splitter) | v0.1.0 | 订阅系统边界与拆分决策：六概念时间模型（事实/派生/负债/触发器）+ 拆分四问与三个灵魂拷问 | 活跃 |
 | engineering-pitfalls | [Henri-lab/engineering-pitfalls](https://github.com/Henri-lab/engineering-pitfalls) | v0.1.0 | 跨项目细碎工程踩坑库（E-001~E-111）：shell/构建部署/SQL/docker/工具链，动手前先搜、踩完就记 | 活跃 |
-
-## 尚在 platform-kit 内、未独立开源的技能
-
-| 技能 | 一句话描述 | 说明 |
-| --- | --- | --- |
-| logging-system-builder | 统一日志体系：trace_id/链路贯通/埋点/前端回流与防打点风暴 | 待独立 |
-| api-contract-typing | OpenAPI 成为前端 TS 类型的唯一来源（双向门禁/漂移检测） | 待独立 |
-| server-hardening | 公网服务器加固（SSH 爆破/误绑 0.0.0.0/TLS 与安全头） | 待独立 |
+| api-contract-typing | [Henri-lab/api-contract-typing](https://github.com/Henri-lab/api-contract-typing) | v0.1.0 | 后端契约（OpenAPI）成为前端 TS 类型的唯一来源：双向路由门禁/required 补齐/漂移检测/按域拆分 | 活跃 |
+| logging-system-builder | [Henri-lab/logging-system-builder](https://github.com/Henri-lab/logging-system-builder) | v0.1.0 | 统一日志体系：trace_id/module/func/caller、链路贯通、埋点、前端回流与防打点风暴 | 活跃 |
+| server-hardening | [Henri-lab/server-hardening](https://github.com/Henri-lab/server-hardening) | v0.1.0 | 公网服务器加固：SSH 爆破/误绑 0.0.0.0/TLS 与安全响应头，每步带可复核验证 | 活跃 |
 
 ## 跨技能的通用纪律
 
 1. **选型访谈**：执行时先问目的 × 规模 × 硬约束，按档位矩阵选方案并说明理由，禁止静默默认；
 2. **设计判据 D-1~D-5**：删表重建 / 审计 / 并发同发 / 重放 / 回滚，跨等级必检；
 3. **持续进化**：`lessons-log.md` 追加经验、`maintenance.md` 决定合并/提升/废弃，技能越用越准；
-4. **上游唯一**：每个技能以独立仓库为唯一上游，`platform-kit` 为 vendored 副本、`~/.codex/skills` 为安装副本，单向同步；
+4. **上游唯一**：每个技能以独立仓库为唯一上游、`~/.codex/skills` 为安装副本，单向同步；`platform-kit` 只维护共享代码模块；
 5. **署名**：MIT 保留版权声明，引用格式见各仓库 README。
 
 另有两份治理文档（本仓库维护）：
