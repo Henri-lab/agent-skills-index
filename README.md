@@ -30,6 +30,11 @@
 4. **上游唯一**：每个技能以独立仓库为唯一上游，`platform-kit` 为 vendored 副本、`~/.codex/skills` 为安装副本，单向同步；
 5. **署名**：MIT 保留版权声明，引用格式见各仓库 README。
 
+另有两份治理文档（本仓库维护）：
+
+- [conventions/solution-interview.md](conventions/solution-interview.md) —— 选型访谈规则的唯一权威；
+- [docs/concept-map.md](docs/concept-map.md) —— **概念单一权威注册表**：哪个概念写在哪、别处只引用不复制。
+
 ## License
 
 [MIT](LICENSE) © 2026 henrifox
