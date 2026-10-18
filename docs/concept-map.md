@@ -12,6 +12,7 @@
 | 时间模型（事实 / 派生 / 负债 / 触发器） | subscription-splitter：`references/time-model.md` | membership ledger/master-craft、course-platform domain-model |
 | 账本域结构化幂等键 | membership-system-builder：ledger §4 | 领域专属，其它技能不复制 |
 | 工程踩坑（单点小坑） | engineering-pitfalls：`references/log.md` | 各技能按 E-xxx 指针引用 |
+| Outbox 实现机制（事务性发箱 / SKIP LOCKED / 死信 / 吞吐） | membership-system-builder：`references/outbox.md` | MSP spec INV-18/19/25、events.md §3（只留行为）；engineering-pitfalls E-079/082（坑）；course-platform platform/outbox（实例） |
 | 认证边界 / principal | identity-system-builder：ASP spec §1 + MSP spec §1「身份边界」 | 业务技能只消费 principal |
 
 ## 结构骨架（允许重复，属于"独立仓库税"）
